@@ -3,154 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Komx Reader - Privacy Policy</title>
+    <title>Privacy Policy - Komx Reader</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #1a73e8;
-            text-align: center;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #1a73e8;
-        }
-        h2 {
-            color: #202124;
-            margin-top: 30px;
-            padding-bottom: 5px;
-            border-bottom: 1px solid #ddd;
-        }
-        h3 {
-            color: #3c4043;
-            margin-top: 20px;
-        }
-        ul {
-            padding-left: 25px;
-        }
-        li {
-            margin-bottom: 8px;
-        }
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .footer {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #70757a;
-            border-top: 1px solid #ddd;
-            padding-top: 20px;
-        }
-        .highlight {
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-left: 4px solid #1a73e8;
-            border-radius: 4px;
-            margin: 20px 0;
-        }
-        .date {
-            text-align: center;
-            font-style: italic;
-            color: #70757a;
-            margin-bottom: 20px;
-        }
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
+        .date { color: #7f8c8d; font-style: italic; }
+        ul { padding-left: 20px; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
     </style>
 </head>
 <body>
-<h1>Privacy Policy</h1>
+    <h1>Privacy Policy for Komx Reader</h1>
+    <p class="date">Last updated: March 2026</p>
 
-<div class="date"><strong>Last Updated:</strong> March 2026</div>
+    <p>At Komx Reader, accessible within the Komx Reader mobile application, one of our main priorities is the privacy of our users. This Privacy Policy document contains types of information that is collected and recorded by Komx Reader and how we use it.</p>
 
-<p>Komx Reader is available as a freemium app with optional premium subscriptions. This SERVICE is provided with both free and premium tiers and is intended for use as is.</p>
-<p>This page is used to inform users regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
-<p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.</p>
-
-<h2>Overview</h2>
-<p>Komx Reader is an offline-first manga and comic reader. It primarily processes image data for reading and enhancement (AI Colorization) and allows you to browse web content via an integrated browser. Most processing occurs locally on your device.</p>
-
-<div class="highlight">
-    <strong>Core Privacy Principles:</strong>
+    <h2>1. Local-First Philosophy & AI Processing</h2>
+    <p>Komx Reader is designed with a local-first approach to ensure your reading data remains private. This means:</p>
     <ul>
-        <li><strong>Offline-First:</strong> Your library, history, and categories are stored locally in a private database on your device.</li>
-        <li><strong>Local AI Processing:</strong> Features like AI Colorization and OCR (Optical Character Recognition) are processed entirely on your device. Your images never leave your phone.</li>
-        <li><strong>Browser Privacy:</strong> Our integrated browser is for your convenience. We do not track, record, or store your browsing history.</li>
-        <li><strong>File Access:</strong> The app only accesses files you explicitly navigate to in the File Explorer or add to your library.</li>
-        <li><strong>No Account Required:</strong> You can use all core features without providing an email address or creating an account.</li>
-        <li><strong>Transparency:</strong> Background tasks like AI processing are always visible via system notifications.</li>
+        <li><strong>On-Device AI:</strong> All advanced image processing features, including Manga Colorization (via ONNX Runtime and TensorFlow Lite) and Text Recognition/OCR (via Google ML Kit), are performed <strong>entirely on your device</strong>. We do not upload your images or documents to any servers for processing.</li>
+        <li><strong>Library Data:</strong> Your reading history, bookmarks, categories, and tags are stored locally on your device's internal database.</li>
+        <li><strong>No Content Hosting:</strong> We do not host your personal comic files or archives. We cannot access or modify your local library content.</li>
     </ul>
-</div>
 
-<h2>Information We Collect</h2>
+    <h2>2. Third-Party Services</h2>
+    <p>To support development and provide essential services, we integrate the following third-party providers:</p>
+    <ul>
+        <li><strong>Google AdMob:</strong> We use AdMob to display advertisements. AdMob may collect and use identifiers (such as the Android Advertising ID) to show personalized or non-personalized ads.</li>
+        <li><strong>Firebase (Analytics & Crashlytics):</strong> We use Google Firebase to understand app performance and stability. This collects anonymous data such as device model, app version, and crash logs to help us fix bugs and improve features.</li>
+        <li><strong>Google Play Billing:</strong> Subscription and premium feature purchases are handled securely by the Google Play Store. We do not receive your payment information (credit card numbers, etc.).</li>
+    </ul>
 
-<h3>Local Data (Stored on Your Device)</h3>
-<ul>
-    <li>Manga library metadata (Titles, URLs, Thumbnails)</li>
-    <li>Reading progress and history</li>
-    <li>Custom tags and categories</li>
-    <li>App settings and preferences</li>
-    <li><strong>Temporary Cache:</strong> Extracted image URLs from the browser to facilitate the reading interface.</li>
-</ul>
+    <h2>3. In-App Browser</h2>
+    <p>Komx Reader includes a "Web Reader" feature that allows you to browse third-party websites. Please be aware that when you visit these websites, you are subject to their respective privacy policies and terms of service. Komx Reader does not track your browsing history outside of your locally saved bookmarks.</p>
 
-<h3>Third-Party Data Collection</h3>
-<ul>
-    <li><strong>Google Play Services:</strong> Device information, account authentication for subscriptions, and billing data.</li>
-    <li><strong>Google Play Billing:</strong> Purchase transactions and subscription status tokens. We do not see or store your credit card details.</li>
-    <li><strong>Firebase Analytics & Crashlytics:</strong> Anonymized usage statistics and crash reports to help us improve app stability.</li>
-</ul>
+    <h2>4. Permissions Usage</h2>
+    <p>To function correctly, Komx Reader requires the following permissions:</p>
+    <ul>
+        <li><strong>Internet:</strong> Required for the Web Reader browser, displaying advertisements, and syncing subscription status.</li>
+        <li><strong>Notifications:</strong> Required if you wish to receive reminders or updates regarding background tasks (like folder merging).</li>
+        <li><strong>Storage (Storage Access Framework):</strong> Used to read comic archives (CBZ, CBR, etc.) from your selected folders.</li>
+    </ul>
 
-<h2>Subscriptions & Premium Features</h2>
-<p>We offer <strong>Komx Reader PRO</strong> subscriptions processed through Google Play Billing:</p>
+    <h2>5. Data Deletion</h2>
+    <p>You have full control over your data. You can delete your library, categories, and bookmarks within the app settings. To remove all data completely, you can "Clear Data" in your device's app settings or uninstall the application.</p>
 
-<p><strong>Purchase Information:</strong></p>
-<ul>
-    <li>Transaction details (date, product ID) are managed by Google.</li>
-    <li>We receive a non-identifiable token to verify your PRO status.</li>
-    <li><strong>Premium Privacy:</strong> Premium users are not subject to any advertising data collection (if advertisements are integrated in the future).</li>
-</ul>
-
-<h2>Permissions & Data Usage</h2>
-<ul>
-    <li><strong>Storage Access (All Files):</strong> Required to find and display your local comic archives (CBZ, CBR, etc.).</li>
-    <li><strong>Internet:</strong> Required for the integrated Web Browser and to verify subscription status with Google.</li>
-    <li><strong>Notifications:</strong> Used to show progress for long-running AI tasks.</li>
-    <li><strong>Foreground Services:</strong> Used to ensure AI Colorization tasks are not interrupted if you switch apps.</li>
-</ul>
-
-<h2>Browser Translate & Image Extraction</h2>
-<p>When using the "Browse" feature:</p>
-<ul>
-    <li>The app captures visual elements of the web view solely to provide a reader interface. This is processed locally.</li>
-    <li>We do not monitor or store passwords or personal data entered into the web browser.</li>
-    <li>Cookies and site data are managed by the system WebView and can be cleared via your device settings.</li>
-</ul>
-
-<h2>Security</h2>
-<p>We prioritize your data security. By processing your manga and AI tasks locally, your most sensitive data (your images) never leaves your control. Payment processing uses Google's secure infrastructure. While we implement best practices, please remember that no method of electronic storage is 100% secure.</p>
-
-<h2>User Responsibility</h2>
-<p>Users are solely responsible for the content they read and the rights to any material they colorize or translate using this tool. Komx Reader is a tool for personal use only; please comply with all applicable copyright laws.</p>
-
-<h2>Children's Privacy</h2>
-<p>Komx Reader does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you believe your child has provided such information, please contact us and we will remove it immediately.</p>
-
-<h2>Changes to This Policy</h2>
-<p>We may update our Privacy Policy from time to time. You are advised to review this page periodically. Changes are effective immediately after they are posted on this page.</p>
-
-<h2>Contact Us</h2>
-<p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:<br>
-    <strong>cosmomime@gmail.com</strong></p>
-
-<div class="footer">
-    <p>&copy; 2024 Komx Reader Project. All rights reserved.</p>
-</div>
+    <h2>6. Contact Us</h2>
+    <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <strong>cosmomime@gmail.com</strong>.</p>
 </body>
 </html>
